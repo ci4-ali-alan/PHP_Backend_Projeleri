@@ -4,9 +4,6 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 
-require __DIR__ . '/database.php';
-require __DIR__ . '/model.php';
-require __DIR__ . '/controller.php';
 require __DIR__ . '/route.php';
 
 Route::run('/', function () {
